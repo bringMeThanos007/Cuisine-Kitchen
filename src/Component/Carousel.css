@@ -1,0 +1,31 @@
+.carous{
+    padding: 15px;
+}
+.carousel{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
+}
+
+.carousel-caption{
+    font-family: Times;
+     text-shadow: 2px 2px 3px black;
+      font-size: 2rem;
+}
+@media (max-width: 820px){
+    
+    .carousel-caption{
+        font-family: Times;
+         text-shadow: 2px 2px 3px black;
+          font-size: 1rem;
+    } 
+
+}
+.carousel-item .d-block{
+    height:70vh;
+    border-radius: 20px;
+}
+@media (max-width: 800px){
+    .carousel-item .d-block{
+        height:40vh;
+    }
+}

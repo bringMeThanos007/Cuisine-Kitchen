@@ -1,0 +1,14 @@
+:root {
+    --primary:#228b22;
+    --secondary: #123524;
+    --solid_cyan:#AAF0D1;
+    --solid_yellow:grey;
+    --solid_green:#A8E4A0;
+    --solid_pink:#E18E96;
+  }
+.recipe{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+.btn{
+    margin-bottom: 20px;
+}

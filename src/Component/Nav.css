@@ -1,0 +1,69 @@
+/* Hex Codes: #854d27, #dd7230, #f4c95d, #e7e393, #04030f 
+"Engagement","Sofia"
+*/
+:root {
+    --primary:#228b22;
+    --secondary: #123524;
+    --solid_cyan:#AAF0D1;
+    --solid_yellow:#FFD300;
+    --solid_green:#A8E4A0;
+    --solid_pink:#E18E96;
+  }
+
+.navbar-brand{
+    font-family: "Sofia","Engagement", Times;
+    letter-spacing: 5px;
+    
+    animation: lighting 2s infinite linear;
+}
+@keyframes lighting {
+    
+    60%{
+        text-shadow: 2px 2px 8px  #FF3131;
+    } 
+  }
+
+@media(max-width:405px){
+    .navbar-brand{
+        
+        letter-spacing: 1px;
+    }
+}
+@media(max-width:285px){
+    .navbar-brand{
+        visibility: hidden;
+    }
+}
+/* .navbar-brand:hover{
+    text-shadow: 2px 2px 8px lime;
+} */
+
+.offcanvas-title{
+    font-family: "Sofia", Times;
+    letter-spacing: 3px;
+    
+}
+.offcanvas-title{
+    width: 100%;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+.offcanvas-header:hover{
+    box-shadow: 1px 2px 2px black;
+    color: var(--primary);
+    text-shadow: 2px 2px 5px var(--secondary);
+}
+.offcanvas-body .nav-item{
+    text-align: center;
+    margin: 2px;
+}
+.offcanvas-body .nav-item a{
+    color:ghostwhite;
+    text-shadow: 1px 1px 3px black;
+    font-family:  Times;
+}
+.offcanvas-body .nav-item:hover{
+    background-color: black;
+    box-shadow: 1px 2px 2px black;
+    border-radius: 20px;
+}

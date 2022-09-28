@@ -1,0 +1,39 @@
+
+:root {
+  --primary:#228b22;
+  --secondary: #123524;
+  --solid_cyan:#AAF0D1;
+  --solid_yellow:#FFD300;
+  --solid_green:#A8E4A0;
+  --solid_pink:#E18E96;
+}
+.Header{
+  width: 100%;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+h1{
+    color:black;
+    font-family: "Sofia", Times;
+    text-shadow: 2px 2px 5px var(--secondary);
+    /* animation: fl1 3s infinite linear; */
+}
+h1:hover{
+  animation: fl1 3s infinite linear;
+}
+@keyframes fl1 {
+    30%{
+      transform: translateY(1%) rotate(1deg);
+    }
+    70%{
+      transform: translateY(1%) rotate(-1deg);
+    }
+  }
+
+  h1:hover{
+    /* color: var(--secondary); */
+    text-shadow:2px 2px 5px limegreen ;
+  }
