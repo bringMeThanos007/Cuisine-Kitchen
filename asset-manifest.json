@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Cuisine-Kitchen/static/css/main.ac87f56e.css",
+    "main.js": "/Cuisine-Kitchen/static/js/main.9632cc2a.js",
+    "static/js/787.aae335e2.chunk.js": "/Cuisine-Kitchen/static/js/787.aae335e2.chunk.js",
+    "static/media/onlyVegs.png": "/Cuisine-Kitchen/static/media/onlyVegs.f437d95ddb7e8cd1f18f.png",
+    "static/media/healthyMeal.png": "/Cuisine-Kitchen/static/media/healthyMeal.a48f7942d571d74c068d.png",
+    "static/media/mealPlan.jpg": "/Cuisine-Kitchen/static/media/mealPlan.d3fa02d2dc0b5846b4aa.jpg",
+    "index.html": "/Cuisine-Kitchen/index.html",
+    "main.ac87f56e.css.map": "/Cuisine-Kitchen/static/css/main.ac87f56e.css.map",
+    "main.9632cc2a.js.map": "/Cuisine-Kitchen/static/js/main.9632cc2a.js.map",
+    "787.aae335e2.chunk.js.map": "/Cuisine-Kitchen/static/js/787.aae335e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac87f56e.css",
+    "static/js/main.9632cc2a.js"
+  ]
+}
